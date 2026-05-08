@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Fever,Cough,Headache,Chest_Pain,Blood_Pressure,Sugar_Level,Cholesterol,Medical_History,Disease
+P1000,61,Female,1,1,0,1,111,197,196,Diabetes,Flu
+P1001,24,Female,1,1,1,0,172,186,168,Hypertension,Flu
+P1002,70,Female,1,1,1,0,122,196,263,Hypertension,Flu
+P1003,30,Female,0,1,1,0,81,140,157,Hypertension,Healthy
+P1004,33,Female,0,1,1,0,139,155,175,Diabetes,Diabetes
+P1005,12,Female,0,0,0,1,102,102,262,None,Heart Disease
+P1006,31,Female,0,0,1,1,162,150,220,Hypertension,Heart Disease
+P1007,62,Male,0,0,0,0,110,130,179,Hypertension,Healthy
+P1008,11,Male,0,0,0,1,84,130,284,Diabetes,Heart Disease
+P1009,39,Male,0,1,0,0,162,167,216,Hypertension,Diabetes
+P1010,47,Male,0,0,0,0,113,97,214,None,Healthy
+P1011,11,Male,1,1,0,1,89,112,185,Diabetes,Flu
+P1012,73,Male,1,0,0,1,168,155,174,None,Heart Disease
+P1013,69,Male,0,0,0,1,81,86,186,None,Heart Disease
+P1014,30,Female,0,0,0,1,90,167,150,Diabetes,Heart Disease
+P1015,42,Female,1,1,0,1,129,167,292,Hypertension,Flu
+P1016,67,Male,0,0,0,1,110,134,186,None,Heart Disease
+P1017,31,Male,0,1,1,1,135,143,290,None,Heart Disease
+P1018,58,Female,0,1,1,0,158,154,285,None,Diabetes
+P1019,68,Male,1,0,1,0,152,74,282,None,Healthy
+P1020,51,Male,1,0,0,0,166,71,277,Diabetes,Healthy
+P1021,69,Female,1,0,1,0,162,91,276,Diabetes,Healthy
+P1022,24,Male,1,1,1,0,88,181,150,None,Flu
+P1023,71,Female,1,0,1,1,178,126,184,Hypertension,Heart Disease
+P1024,71,Male,0,1,0,0,100,135,253,None,Healthy
+P1025,56,Female,1,1,0,0,152,143,172,Hypertension,Flu
+P1026,71,Female,0,0,0,0,107,167,158,None,Diabetes
+P1027,60,Female,0,0,0,0,141,181,183,Hypertension,Diabetes
+P1028,64,Male,1,1,1,0,86,194,277,None,Flu
+P1029,73,Female,1,1,1,0,159,155,153,Hypertension,Flu
+P1030,12,Male,0,1,1,0,95,145,251,None,Healthy
+P1031,60,Male,0,0,1,1,176,157,224,None,Heart Disease
+P1032,16,Male,0,1,0,1,83,107,248,Hypertension,Heart Disease
+P1033,30,Male,1,0,0,0,83,128,221,Diabetes,Healthy
+P1034,48,Female,1,1,0,1,119,168,152,Hypertension,Flu
+P1035,27,Female,1,1,1,1,96,132,291,Diabetes,Flu
+P1036,13,Male,1,0,0,1,131,118,183,None,Heart Disease
+P1037,69,Male,1,1,0,1,172,101,194,Hypertension,Flu
+P1038,23,Female,0,0,1,0,131,90,210,Hypertension,Healthy
+P1039,18,Male,1,0,1,1,115,89,232,Hypertension,Heart Disease
+P1040,62,Female,0,1,0,1,117,196,272,Diabetes,Heart Disease
+P1041,11,Male,0,0,0,1,129,137,251,Diabetes,Heart Disease
+P1042,69,Male,0,0,0,0,142,179,165,None,Diabetes
+P1043,53,Female,1,1,0,0,142,185,215,Diabetes,Flu
+P1044,17,Male,1,0,0,0,141,189,294,Diabetes,Diabetes
+P1045,56,Female,1,0,0,0,178,148,268,None,Healthy
+P1046,44,Male,0,0,1,0,86,185,273,Hypertension,Diabetes
+P1047,45,Male,0,1,1,0,106,161,293,Hypertension,Diabetes
+P1048,59,Male,0,0,1,0,171,83,251,None,Healthy
+P1049,13,Female,0,1,0,1,165,194,215,Hypertension,Heart Disease
+P1050,11,Male,0,1,1,1,93,127,162,Diabetes,Heart Disease
+P1051,15,Male,0,0,0,1,150,97,260,None,Heart Disease
+P1052,63,Male,1,0,0,0,165,95,183,None,Healthy
+P1053,13,Male,1,0,1,0,84,182,188,None,Diabetes
+P1054,63,Female,1,1,0,0,134,135,285,Hypertension,Flu
+P1055,72,Female,1,0,0,0,81,113,269,None,Healthy
+P1056,27,Male,0,0,1,0,141,166,275,None,Diabetes
+P1057,53,Female,0,0,1,1,170,111,204,None,Heart Disease
+P1058,43,Male,1,0,1,1,100,75,176,Hypertension,Heart Disease
+P1059,71,Male,0,0,0,0,158,92,267,Diabetes,Healthy
+P1060,23,Male,1,1,1,0,100,158,202,None,Flu
+P1061,57,Female,1,1,1,0,89,192,188,Diabetes,Flu
+P1062,24,Female,1,0,0,0,166,120,214,Hypertension,Healthy
+P1063,71,Female,0,0,1,1,137,80,294,Hypertension,Heart Disease
+P1064,49,Female,1,0,1,0,118,81,162,Hypertension,Healthy
+P1065,62,Female,1,0,1,0,84,143,170,Hypertension,Healthy
+P1066,33,Female,1,1,0,0,144,77,296,Diabetes,Flu
+P1067,35,Female,0,0,0,0,92,110,202,None,Healthy
+P1068,69,Female,0,1,0,1,164,154,168,Hypertension,Heart Disease
+P1069,50,Female,1,1,0,0,169,141,206,Hypertension,Flu
+P1070,38,Male,0,0,1,0,164,124,174,Diabetes,Healthy
+P1071,24,Female,0,1,0,1,132,116,180,Diabetes,Heart Disease
+P1072,54,Female,0,1,0,1,161,173,230,Hypertension,Heart Disease
+P1073,74,Female,0,1,1,1,124,111,172,None,Heart Disease
+P1074,18,Female,0,1,1,0,111,129,181,None,Healthy
+P1075,10,Female,0,0,1,0,115,81,223,Hypertension,Healthy
+P1076,17,Female,0,0,0,1,160,199,159,Diabetes,Heart Disease
+P1077,72,Female,0,1,0,1,178,76,203,Hypertension,Heart Disease
+P1078,20,Female,0,0,0,1,139,149,201,Hypertension,Heart Disease
+P1079,17,Female,0,0,1,1,90,178,297,Diabetes,Heart Disease
+P1080,44,Female,1,0,1,1,142,72,263,Hypertension,Heart Disease
+P1081,44,Female,1,0,0,1,100,96,163,Hypertension,Heart Disease
+P1082,42,Male,0,0,1,0,131,183,259,Hypertension,Diabetes
+P1083,14,Male,1,1,1,0,134,176,202,Diabetes,Flu
+P1084,50,Female,1,0,1,0,105,109,228,None,Healthy
+P1085,37,Female,0,0,0,1,147,198,171,None,Heart Disease
+P1086,16,Male,0,0,1,1,113,77,179,Diabetes,Heart Disease
+P1087,21,Female,0,0,1,1,131,170,153,None,Heart Disease
+P1088,43,Male,1,1,0,1,161,193,208,Hypertension,Flu
+P1089,42,Male,1,1,0,1,178,176,157,None,Flu
+P1090,57,Male,0,1,1,1,172,170,161,Hypertension,Heart Disease
+P1091,32,Male,0,1,1,0,131,73,268,None,Healthy
+P1092,71,Male,0,0,0,0,108,179,183,Diabetes,Diabetes
+P1093,46,Female,1,1,0,1,117,88,231,None,Flu
+P1094,53,Male,1,0,1,0,121,101,247,None,Healthy
+P1095,44,Female,1,0,1,1,100,81,276,None,Heart Disease
+P1096,74,Female,1,0,1,0,121,115,224,Diabetes,Healthy
+P1097,56,Male,0,0,1,1,92,188,254,None,Heart Disease
+P1098,12,Male,0,0,0,1,143,85,198,Diabetes,Heart Disease
+P1099,10,Female,0,1,1,0,96,198,228,Hypertension,Diabetes
+P1100,14,Male,0,1,1,0,88,132,242,None,Healthy
+P1101,23,Male,1,1,0,1,120,178,167,Diabetes,Flu
+P1102,36,Female,1,1,1,1,80,188,245,Diabetes,Flu
+P1103,18,Female,0,0,0,0,81,90,187,None,Healthy
+P1104,24,Male,0,1,1,0,139,82,236,Hypertension,Healthy
+P1105,51,Female,1,0,1,1,127,73,237,Diabetes,Heart Disease
+P1106,60,Male,0,1,0,0,108,171,199,None,Diabetes
+P1107,72,Male,1,0,0,1,176,128,157,Hypertension,Heart Disease
+P1108,61,Male,0,0,1,1,89,197,283,Diabetes,Heart Disease
+P1109,13,Female,0,1,1,1,137,96,218,Diabetes,Heart Disease
+P1110,32,Female,0,0,1,1,139,138,270,Hypertension,Heart Disease
+P1111,24,Female,0,0,0,0,100,94,213,Hypertension,Healthy
+P1112,52,Female,0,1,1,0,107,166,288,None,Diabetes
+P1113,38,Female,0,0,0,0,154,94,270,None,Healthy
+P1114,45,Male,0,1,0,0,113,195,214,Diabetes,Diabetes
+P1115,22,Male,1,1,1,0,87,78,256,Hypertension,Flu
+P1116,41,Male,1,1,0,0,138,185,296,Hypertension,Flu
+P1117,68,Male,1,0,1,0,165,129,286,Hypertension,Healthy
+P1118,37,Female,1,0,1,1,151,190,249,Diabetes,Heart Disease
+P1119,75,Male,1,0,1,0,128,177,231,Hypertension,Diabetes
+P1120,51,Female,0,1,1,0,158,177,292,Hypertension,Diabetes
+P1121,54,Male,0,0,1,1,96,145,200,Diabetes,Heart Disease
+P1122,71,Female,1,1,0,0,139,99,290,None,Flu
+P1123,66,Female,0,1,0,0,166,90,232,None,Healthy
+P1124,15,Male,1,0,1,1,167,103,261,Diabetes,Heart Disease
+P1125,37,Male,1,1,1,0,124,110,205,Hypertension,Flu
+P1126,37,Male,0,0,0,0,162,120,294,Diabetes,Healthy
+P1127,53,Male,0,0,0,0,148,151,209,None,Diabetes
+P1128,39,Female,0,0,0,1,111,127,269,None,Heart Disease
+P1129,71,Male,1,0,0,0,123,144,287,Diabetes,Healthy
+P1130,71,Male,0,0,1,0,144,92,172,Diabetes,Healthy
+P1131,10,Female,1,1,1,1,166,197,298,None,Flu
+P1132,36,Male,1,1,0,0,87,86,162,Diabetes,Flu
+P1133,71,Male,1,1,1,1,156,138,250,None,Flu
+P1134,12,Male,0,0,0,1,151,177,173,Diabetes,Heart Disease
+P1135,79,Male,0,0,1,0,166,163,257,Diabetes,Diabetes
+P1136,36,Male,1,0,0,1,122,84,160,Diabetes,Heart Disease
+P1137,18,Female,0,1,1,1,80,160,166,None,Heart Disease
+P1138,71,Male,0,0,0,0,130,102,174,Diabetes,Healthy
+P1139,46,Male,0,1,0,1,103,194,243,None,Heart Disease
+P1140,60,Male,1,1,1,1,178,85,170,None,Flu
+P1141,53,Male,1,0,0,0,103,135,233,Diabetes,Healthy
+P1142,33,Male,0,0,1,0,96,116,289,Diabetes,Healthy
+P1143,68,Female,1,1,1,0,84,193,186,None,Flu
+P1144,41,Male,0,0,0,1,99,70,191,None,Heart Disease
+P1145,61,Female,0,1,1,0,100,156,294,Hypertension,Diabetes
+P1146,71,Female,0,0,1,1,137,197,250,None,Heart Disease
+P1147,67,Male,0,0,1,1,110,136,197,Hypertension,Heart Disease
+P1148,61,Male,1,1,1,1,179,73,252,Hypertension,Flu
+P1149,21,Male,1,0,1,1,90,116,177,Hypertension,Heart Disease
+P1150,48,Male,1,1,0,1,131,107,190,Diabetes,Flu
+P1151,11,Female,0,0,1,1,94,90,248,Diabetes,Heart Disease
+P1152,12,Male,0,1,1,1,162,126,196,None,Heart Disease
+P1153,65,Male,0,1,1,0,86,186,295,Hypertension,Diabetes
+P1154,68,Male,1,0,1,0,107,115,254,Diabetes,Healthy
+P1155,11,Male,0,1,1,1,130,108,273,Diabetes,Heart Disease
+P1156,11,Male,1,0,0,1,137,168,162,Diabetes,Heart Disease
+P1157,63,Male,1,0,1,0,84,146,290,Diabetes,Healthy
+P1158,10,Female,1,0,0,1,84,184,249,Diabetes,Heart Disease
+P1159,28,Female,1,1,0,0,173,160,180,Hypertension,Flu
+P1160,11,Male,1,1,0,0,175,167,279,Hypertension,Flu
+P1161,62,Male,1,0,0,0,87,189,165,Hypertension,Diabetes
+P1162,53,Male,0,0,1,1,143,115,286,Hypertension,Heart Disease
+P1163,41,Female,0,1,0,1,89,107,222,None,Heart Disease
+P1164,79,Male,1,0,0,0,117,169,203,Hypertension,Diabetes
+P1165,41,Female,1,0,1,0,175,141,249,Diabetes,Healthy
+P1166,77,Male,0,1,1,0,171,104,258,Hypertension,Healthy
+P1167,64,Male,1,0,1,0,160,99,236,None,Healthy
+P1168,65,Male,1,1,0,0,174,147,286,Diabetes,Flu
+P1169,26,Male,0,0,1,1,87,153,157,Hypertension,Heart Disease
+P1170,47,Female,1,1,1,0,104,182,156,Hypertension,Flu
+P1171,33,Female,1,0,0,1,152,94,185,Hypertension,Heart Disease
+P1172,78,Male,1,0,1,0,145,157,167,Diabetes,Diabetes
+P1173,79,Male,0,1,1,1,158,83,152,Diabetes,Heart Disease
+P1174,20,Female,0,0,1,1,129,171,177,None,Heart Disease
+P1175,25,Female,0,1,1,1,146,152,219,Diabetes,Heart Disease
+P1176,68,Female,1,0,0,1,128,179,298,Diabetes,Heart Disease
+P1177,79,Female,1,1,1,1,115,88,177,Hypertension,Flu
+P1178,12,Male,0,1,1,1,147,97,203,Diabetes,Heart Disease
+P1179,29,Female,1,1,0,0,157,140,214,Hypertension,Flu
+P1180,68,Male,1,1,1,1,120,132,249,Hypertension,Flu
+P1181,45,Female,1,0,0,0,168,142,170,Diabetes,Healthy
+P1182,28,Female,1,0,1,1,141,193,162,None,Heart Disease
+P1183,76,Female,1,1,0,1,89,188,206,None,Flu
+P1184,28,Female,0,1,0,0,100,190,198,Diabetes,Diabetes
+P1185,29,Female,1,1,0,1,115,88,267,None,Flu
+P1186,61,Male,0,0,0,0,91,189,203,Hypertension,Diabetes
+P1187,42,Male,1,0,1,0,170,130,287,Hypertension,Healthy
+P1188,49,Female,0,0,0,0,81,99,202,Diabetes,Healthy
+P1189,48,Female,1,0,1,0,92,78,193,None,Healthy
+P1190,10,Male,0,1,0,1,132,133,196,None,Heart Disease
+P1191,20,Female,1,1,0,1,111,189,202,Hypertension,Flu
+P1192,66,Female,0,1,0,0,174,121,223,Diabetes,Healthy
+P1193,59,Male,1,0,1,1,95,158,195,None,Heart Disease
+P1194,32,Female,0,0,0,1,111,122,162,Diabetes,Heart Disease
+P1195,40,Female,1,0,1,0,111,147,251,None,Healthy
+P1196,51,Male,0,1,1,1,177,110,173,Hypertension,Heart Disease
+P1197,16,Male,0,1,1,0,90,137,151,Hypertension,Healthy
+P1198,25,Male,1,0,1,0,89,77,230,Diabetes,Healthy
+P1199,69,Female,1,1,1,1,94,71,249,Hypertension,Flu
+P1200,11,Male,0,0,1,1,96,174,291,None,Heart Disease
+P1201,10,Male,1,0,1,1,119,194,287,Hypertension,Heart Disease
+P1202,57,Male,0,1,1,0,97,179,280,Diabetes,Diabetes
+P1203,21,Male,0,0,1,0,134,155,260,Diabetes,Diabetes
+P1204,78,Male,0,1,0,1,152,189,251,Diabetes,Heart Disease
+P1205,46,Male,1,0,0,1,104,196,166,None,Heart Disease
+P1206,41,Female,0,1,0,1,138,85,161,None,Heart Disease
+P1207,18,Female,0,1,0,1,157,131,265,None,Heart Disease
+P1208,28,Male,1,1,0,0,168,182,173,None,Flu
+P1209,57,Male,1,0,1,1,101,81,178,None,Heart Disease
+P1210,12,Male,1,0,1,0,109,104,271,Hypertension,Healthy
+P1211,29,Female,1,1,1,0,163,80,239,None,Flu
+P1212,33,Female,0,1,1,1,164,133,214,None,Heart Disease
+P1213,63,Female,0,0,1,1,123,119,233,Hypertension,Heart Disease
+P1214,42,Female,0,0,1,1,111,138,268,None,Heart Disease
+P1215,33,Female,0,0,1,0,130,117,165,Diabetes,Healthy
+P1216,45,Female,1,1,0,1,125,89,253,None,Flu
+P1217,47,Female,0,0,0,1,100,170,241,None,Heart Disease
+P1218,34,Female,0,0,0,0,178,137,176,Diabetes,Healthy
+P1219,27,Female,1,1,0,1,111,104,283,Diabetes,Flu
+P1220,75,Male,0,0,1,0,173,134,284,Diabetes,Healthy
+P1221,63,Male,0,0,1,1,118,77,182,Diabetes,Heart Disease
+P1222,44,Male,0,0,1,0,91,114,204,None,Healthy
+P1223,70,Male,0,1,0,1,126,156,156,Diabetes,Heart Disease
+P1224,50,Female,0,1,1,1,97,145,206,Diabetes,Heart Disease
+P1225,42,Female,0,1,1,0,100,145,275,Hypertension,Healthy
+P1226,77,Male,1,1,1,0,92,116,161,Diabetes,Flu
+P1227,42,Female,1,1,0,1,100,84,165,Diabetes,Flu
+P1228,23,Male,0,1,1,0,87,174,192,Hypertension,Diabetes
+P1229,30,Female,0,1,0,0,125,95,266,Hypertension,Healthy
+P1230,57,Male,1,0,0,0,86,121,284,None,Healthy
+P1231,29,Female,0,0,0,0,102,162,260,Hypertension,Diabetes
+P1232,17,Female,0,1,0,1,175,90,200,None,Heart Disease
+P1233,16,Male,0,0,1,1,154,120,224,Hypertension,Heart Disease
+P1234,76,Female,1,0,0,0,165,107,157,Hypertension,Healthy
+P1235,26,Male,0,1,0,0,101,89,194,None,Healthy
+P1236,42,Male,1,0,1,0,168,124,208,Hypertension,Healthy
+P1237,57,Male,0,0,1,0,101,161,281,None,Diabetes
+P1238,68,Male,1,0,0,1,171,97,253,Hypertension,Heart Disease
+P1239,31,Female,1,0,1,1,108,73,247,Diabetes,Heart Disease
+P1240,39,Female,0,0,0,0,92,145,228,Hypertension,Healthy
+P1241,47,Female,1,1,0,0,161,136,273,None,Flu
+P1242,60,Male,0,1,0,0,81,155,153,Hypertension,Diabetes
+P1243,63,Female,1,1,0,1,108,160,239,None,Flu
+P1244,17,Male,0,0,1,0,164,174,253,None,Diabetes
+P1245,36,Female,0,1,0,1,158,70,286,Diabetes,Heart Disease
+P1246,36,Female,1,0,1,0,131,141,268,Diabetes,Healthy
+P1247,30,Female,0,0,1,1,106,156,282,None,Heart Disease
+P1248,39,Male,0,0,1,0,129,75,205,Hypertension,Healthy
+P1249,37,Female,1,0,1,1,174,130,245,None,Heart Disease
+P1250,73,Female,0,1,0,0,158,81,224,None,Healthy
+P1251,78,Male,0,1,1,0,102,75,292,Hypertension,Healthy
+P1252,70,Female,1,0,0,0,167,96,181,Hypertension,Healthy
+P1253,57,Male,1,1,1,1,123,193,177,Hypertension,Flu
+P1254,28,Female,0,0,1,0,156,175,171,Hypertension,Diabetes
+P1255,13,Male,0,1,0,1,101,162,166,None,Heart Disease
+P1256,44,Male,1,1,0,1,122,178,208,None,Flu
+P1257,73,Female,1,0,0,0,116,168,239,Diabetes,Diabetes
+P1258,58,Male,0,1,1,0,140,104,255,None,Healthy
+P1259,26,Male,1,0,1,0,176,153,175,Hypertension,Diabetes
+P1260,53,Male,0,1,0,1,135,125,174,Diabetes,Heart Disease
+P1261,39,Male,0,0,0,0,82,118,287,Hypertension,Healthy
+P1262,55,Male,0,0,0,1,142,115,194,None,Heart Disease
+P1263,15,Male,0,1,0,1,98,182,232,Diabetes,Heart Disease
+P1264,46,Female,0,1,1,0,102,112,160,Hypertension,Healthy
+P1265,33,Male,1,0,0,0,108,193,253,Diabetes,Diabetes
+P1266,55,Male,1,1,0,0,109,166,217,Diabetes,Flu
+P1267,62,Female,1,1,0,0,118,159,244,None,Flu
+P1268,69,Female,1,0,0,0,104,108,214,Hypertension,Healthy
+P1269,72,Female,0,0,1,0,87,154,198,Diabetes,Diabetes
+P1270,41,Female,0,1,0,1,137,131,201,Diabetes,Heart Disease
+P1271,42,Female,0,0,1,1,95,175,251,Hypertension,Heart Disease
+P1272,76,Female,0,0,0,1,151,176,206,Diabetes,Heart Disease
+P1273,27,Female,1,0,0,0,80,123,196,Diabetes,Healthy
+P1274,34,Male,0,1,1,1,84,195,175,Diabetes,Heart Disease
+P1275,63,Male,0,1,0,1,82,78,263,Hypertension,Heart Disease
+P1276,67,Female,1,0,1,1,144,157,154,Hypertension,Heart Disease
+P1277,76,Male,1,1,1,1,83,106,233,Hypertension,Flu
+P1278,55,Male,1,0,0,1,178,118,201,Hypertension,Heart Disease
+P1279,33,Male,1,1,1,0,175,110,254,None,Flu
+P1280,41,Female,0,0,1,0,143,86,203,Diabetes,Healthy
+P1281,56,Female,0,0,1,1,177,157,164,Hypertension,Heart Disease
+P1282,32,Male,1,1,1,1,168,90,210,Diabetes,Flu
+P1283,75,Female,0,0,1,1,89,120,271,Diabetes,Heart Disease
+P1284,36,Male,0,1,1,0,100,128,170,None,Healthy
+P1285,11,Male,0,1,1,0,125,110,195,Hypertension,Healthy
+P1286,26,Male,1,0,1,1,170,108,283,Hypertension,Heart Disease
+P1287,42,Male,0,0,0,0,106,80,187,Diabetes,Healthy
+P1288,18,Female,1,1,0,0,145,146,211,Hypertension,Flu
+P1289,52,Female,0,0,1,1,120,196,235,Diabetes,Heart Disease
+P1290,57,Female,0,0,0,0,92,115,227,Diabetes,Healthy
+P1291,48,Male,0,0,1,0,88,114,195,None,Healthy
+P1292,51,Female,1,0,1,1,115,70,290,None,Heart Disease
+P1293,35,Male,0,0,0,0,165,177,152,None,Diabetes
+P1294,59,Female,1,1,1,0,169,88,155,Diabetes,Flu
+P1295,34,Male,1,1,1,1,137,145,242,Hypertension,Flu
+P1296,33,Male,1,0,1,0,133,141,157,None,Healthy
+P1297,22,Male,0,0,1,0,91,178,257,Hypertension,Diabetes
+P1298,69,Female,0,0,0,1,160,81,224,None,Heart Disease
+P1299,16,Female,0,1,1,1,157,114,226,None,Heart Disease
+P1300,66,Female,0,0,1,1,93,159,199,Diabetes,Heart Disease
+P1301,45,Female,1,1,1,0,113,172,160,None,Flu
+P1302,54,Male,1,1,0,1,132,77,244,None,Flu
+P1303,29,Female,1,1,1,0,99,160,219,Diabetes,Flu
+P1304,74,Female,0,0,0,1,154,156,165,Hypertension,Heart Disease
+P1305,17,Male,1,1,0,0,95,153,217,None,Flu
+P1306,25,Male,0,0,1,1,174,151,248,Diabetes,Heart Disease
+P1307,23,Male,1,1,1,1,149,137,197,None,Flu
+P1308,24,Female,0,0,0,1,135,196,213,Diabetes,Heart Disease
+P1309,75,Male,0,1,1,1,162,151,239,Hypertension,Heart Disease
+P1310,41,Male,1,0,0,0,137,153,225,Hypertension,Diabetes
+P1311,72,Male,1,1,0,1,83,182,288,Diabetes,Flu
+P1312,60,Female,1,0,1,1,83,145,250,Diabetes,Heart Disease
+P1313,34,Male,1,0,1,0,99,191,238,Diabetes,Diabetes
+P1314,67,Female,0,0,0,1,89,110,167,Hypertension,Heart Disease
+P1315,72,Female,1,0,0,0,103,71,168,None,Healthy
+P1316,71,Male,1,1,0,1,178,98,204,Hypertension,Flu
+P1317,31,Male,1,1,0,1,105,174,251,Diabetes,Flu
+P1318,67,Female,0,0,1,1,116,120,267,Diabetes,Heart Disease
+P1319,67,Male,0,1,1,0,164,144,283,Hypertension,Healthy
+P1320,58,Male,1,0,1,1,133,79,153,Diabetes,Heart Disease
+P1321,61,Female,0,0,1,1,100,120,257,Hypertension,Heart Disease
+P1322,51,Female,1,1,1,1,153,187,264,Diabetes,Flu
+P1323,79,Male,0,0,0,0,117,190,178,None,Diabetes
+P1324,24,Female,0,0,1,0,125,108,208,None,Healthy
+P1325,63,Male,0,1,1,1,83,97,274,Diabetes,Heart Disease
+P1326,69,Male,0,0,1,0,139,72,247,Hypertension,Healthy
+P1327,17,Male,1,0,1,1,136,153,166,None,Heart Disease
+P1328,62,Female,1,0,1,1,124,186,256,Hypertension,Heart Disease
+P1329,69,Male,1,0,0,1,99,71,192,Diabetes,Heart Disease
+P1330,14,Male,0,1,0,1,96,162,229,Hypertension,Heart Disease
+P1331,77,Male,1,1,0,1,150,163,157,None,Flu
+P1332,15,Female,1,1,1,1,83,109,290,Hypertension,Flu
+P1333,56,Female,1,0,0,1,172,71,255,Hypertension,Heart Disease
+P1334,64,Female,0,0,0,0,93,150,157,Diabetes,Healthy
+P1335,49,Female,0,1,1,0,82,81,245,Diabetes,Healthy
+P1336,61,Female,0,0,1,0,167,134,243,Diabetes,Healthy
+P1337,25,Male,1,0,1,0,159,124,214,None,Healthy
+P1338,22,Female,1,0,0,0,137,114,188,None,Healthy
+P1339,39,Female,1,0,0,0,134,170,230,Diabetes,Diabetes
+P1340,28,Female,0,1,1,0,83,131,233,Diabetes,Healthy
+P1341,26,Male,0,1,1,1,103,118,237,None,Heart Disease
+P1342,72,Female,1,1,0,1,113,196,235,None,Flu
+P1343,28,Female,0,0,0,1,109,92,242,None,Heart Disease
+P1344,67,Male,0,1,1,1,161,107,235,None,Heart Disease
+P1345,64,Female,0,1,1,0,98,97,193,Diabetes,Healthy
+P1346,71,Male,0,0,0,0,110,90,286,None,Healthy
+P1347,32,Male,1,0,1,1,139,176,223,Diabetes,Heart Disease
+P1348,18,Male,0,1,0,1,139,168,185,Hypertension,Heart Disease
+P1349,21,Male,0,1,0,0,98,188,250,Hypertension,Diabetes
+P1350,10,Male,0,1,0,1,128,142,253,None,Heart Disease
+P1351,67,Female,0,1,0,1,142,191,215,Hypertension,Heart Disease
+P1352,10,Male,1,0,1,1,162,99,204,Hypertension,Heart Disease
+P1353,43,Male,1,1,1,1,101,177,240,Hypertension,Flu
+P1354,57,Female,0,1,0,0,103,167,171,None,Diabetes
+P1355,10,Male,0,0,0,1,155,101,250,None,Heart Disease
+P1356,25,Female,0,1,0,1,109,148,270,Hypertension,Heart Disease
+P1357,70,Female,0,0,0,0,137,110,242,Diabetes,Healthy
+P1358,73,Female,0,0,0,0,110,132,257,Hypertension,Healthy
+P1359,72,Male,0,0,1,1,179,92,290,None,Heart Disease
+P1360,78,Male,1,1,1,0,143,173,159,None,Flu
+P1361,31,Male,0,1,1,1,98,144,158,None,Heart Disease
+P1362,76,Female,1,0,1,1,127,117,183,Hypertension,Heart Disease
+P1363,35,Male,1,1,0,0,124,126,278,Diabetes,Flu
+P1364,25,Male,0,1,0,1,179,187,238,None,Heart Disease
+P1365,60,Male,1,0,0,1,173,169,242,None,Heart Disease
+P1366,66,Female,1,0,0,1,134,193,220,Hypertension,Heart Disease
+P1367,38,Female,1,1,0,1,134,103,216,Diabetes,Flu
+P1368,78,Male,1,0,1,0,176,76,297,Hypertension,Healthy
+P1369,56,Male,1,1,0,0,97,125,266,None,Flu
+P1370,71,Male,1,1,1,1,142,134,243,Diabetes,Flu
+P1371,78,Male,0,1,1,0,171,116,248,Diabetes,Healthy
+P1372,25,Female,1,1,1,1,126,88,262,None,Flu
+P1373,57,Female,1,0,1,1,154,195,252,Diabetes,Heart Disease
+P1374,48,Female,1,0,0,1,136,118,240,Diabetes,Heart Disease
+P1375,42,Female,0,0,1,1,124,182,239,Hypertension,Heart Disease
+P1376,32,Male,1,0,1,1,112,107,166,None,Heart Disease
+P1377,19,Male,0,1,1,0,96,133,167,None,Healthy
+P1378,78,Male,1,1,0,1,149,138,265,None,Flu
+P1379,43,Female,0,0,0,0,83,185,242,None,Diabetes
+P1380,61,Male,0,1,0,0,99,134,240,None,Healthy
+P1381,19,Female,1,1,1,1,126,100,231,Diabetes,Flu
+P1382,28,Female,1,1,1,1,170,182,217,Hypertension,Flu
+P1383,67,Male,0,0,0,1,94,178,263,None,Heart Disease
+P1384,10,Male,1,0,1,1,149,138,150,Hypertension,Heart Disease
+P1385,78,Male,0,0,0,1,126,189,207,Hypertension,Heart Disease
+P1386,13,Female,0,1,0,0,157,157,258,Diabetes,Diabetes
+P1387,25,Male,0,0,1,1,154,136,297,None,Heart Disease
+P1388,33,Female,0,0,1,1,88,144,265,Diabetes,Heart Disease
+P1389,11,Male,0,0,1,0,169,114,236,None,Healthy
+P1390,41,Female,1,0,1,0,95,73,159,Diabetes,Healthy
+P1391,33,Female,0,0,0,1,148,176,208,Hypertension,Heart Disease
+P1392,21,Male,0,0,0,0,140,120,190,None,Healthy
+P1393,59,Female,1,1,0,1,89,119,254,Hypertension,Flu
+P1394,44,Female,0,1,0,0,129,75,282,Hypertension,Healthy
+P1395,42,Male,1,0,0,0,82,128,271,Diabetes,Healthy
+P1396,42,Female,1,0,1,1,156,194,294,None,Heart Disease
+P1397,70,Male,1,1,0,0,173,99,171,Hypertension,Flu
+P1398,60,Female,0,1,0,0,149,191,247,Diabetes,Diabetes
+P1399,52,Male,0,0,0,0,160,194,217,None,Diabetes
+P1400,21,Male,0,0,1,0,130,106,288,None,Healthy
+P1401,76,Female,1,0,1,0,98,193,205,Hypertension,Diabetes
+P1402,74,Female,0,0,1,0,121,170,298,None,Diabetes
+P1403,42,Female,1,1,1,1,114,104,248,Hypertension,Flu
+P1404,49,Female,0,0,0,1,125,156,225,None,Heart Disease
+P1405,52,Female,1,0,0,0,105,87,175,Diabetes,Healthy
+P1406,53,Male,0,0,1,1,148,182,264,Hypertension,Heart Disease
+P1407,38,Female,0,0,1,1,172,98,296,Hypertension,Heart Disease
+P1408,22,Male,0,1,0,1,143,146,258,None,Heart Disease
+P1409,21,Male,1,1,0,0,116,128,196,None,Flu
+P1410,55,Female,1,1,1,1,163,195,220,Hypertension,Flu
+P1411,11,Male,0,0,1,0,128,178,189,None,Diabetes
+P1412,44,Male,0,0,1,1,100,91,282,Diabetes,Heart Disease
+P1413,17,Male,1,1,1,0,153,137,298,None,Flu
+P1414,35,Male,1,0,0,0,143,138,281,Diabetes,Healthy
+P1415,43,Female,1,0,0,1,84,118,172,Diabetes,Heart Disease
+P1416,16,Male,0,1,0,1,179,178,255,Diabetes,Heart Disease
+P1417,77,Female,1,1,1,0,149,155,233,Diabetes,Flu
+P1418,67,Female,0,1,1,1,169,122,292,Diabetes,Heart Disease
+P1419,38,Male,1,1,0,1,83,192,265,None,Flu
+P1420,45,Female,0,0,0,1,118,156,258,Diabetes,Heart Disease
+P1421,30,Female,1,0,0,0,114,111,285,None,Healthy
+P1422,45,Female,1,1,0,0,80,167,190,Diabetes,Flu
+P1423,19,Male,1,0,1,1,103,178,261,Hypertension,Heart Disease
+P1424,33,Female,1,1,0,1,136,120,296,Diabetes,Flu
+P1425,73,Female,1,1,0,1,179,154,261,Hypertension,Flu
+P1426,58,Female,0,0,0,0,149,196,252,Diabetes,Diabetes
+P1427,45,Male,1,1,0,0,120,90,195,Diabetes,Flu
+P1428,33,Female,1,0,0,1,133,113,217,Diabetes,Heart Disease
+P1429,32,Male,1,0,0,1,125,172,271,Hypertension,Heart Disease
+P1430,71,Male,0,0,0,1,139,137,164,Hypertension,Heart Disease
+P1431,46,Male,1,0,1,1,139,198,278,Diabetes,Heart Disease
+P1432,21,Male,0,1,1,1,136,161,260,None,Heart Disease
+P1433,64,Male,1,0,1,1,110,93,173,Diabetes,Heart Disease
+P1434,22,Male,1,1,1,0,163,194,176,Hypertension,Flu
+P1435,32,Female,0,1,0,1,103,180,189,Diabetes,Heart Disease
+P1436,39,Male,1,1,1,0,168,167,173,Hypertension,Flu
+P1437,26,Female,0,1,1,1,115,86,173,Hypertension,Heart Disease
+P1438,71,Female,0,0,0,1,164,168,153,Hypertension,Heart Disease
+P1439,22,Male,1,0,0,0,109,151,216,Diabetes,Diabetes
+P1440,68,Female,0,1,1,0,103,173,183,Hypertension,Diabetes
+P1441,28,Female,1,1,1,0,109,88,265,Hypertension,Flu
+P1442,58,Female,1,0,0,0,165,154,172,Diabetes,Diabetes
+P1443,21,Female,0,1,1,1,171,77,258,Hypertension,Heart Disease
+P1444,70,Male,0,0,0,0,86,97,218,Diabetes,Healthy
+P1445,28,Female,0,1,0,1,114,74,244,Hypertension,Heart Disease
+P1446,18,Male,0,0,0,0,134,170,211,None,Diabetes
+P1447,37,Female,1,1,0,1,171,187,206,None,Flu
+P1448,61,Female,1,1,1,1,93,133,203,Hypertension,Flu
+P1449,25,Male,0,0,0,1,89,160,219,None,Heart Disease
+P1450,78,Female,1,1,0,1,159,186,250,Diabetes,Flu
+P1451,21,Female,1,1,1,1,95,167,206,None,Flu
+P1452,34,Female,1,0,0,1,133,80,287,Hypertension,Heart Disease
+P1453,61,Male,1,1,1,0,174,123,284,Hypertension,Flu
+P1454,62,Female,0,0,1,1,168,116,252,Diabetes,Heart Disease
+P1455,32,Male,0,0,1,0,156,74,234,Hypertension,Healthy
+P1456,25,Female,1,1,0,0,149,89,210,Diabetes,Flu
+P1457,66,Male,0,1,1,1,123,115,152,None,Heart Disease
+P1458,48,Male,0,1,1,0,152,81,277,None,Healthy
+P1459,62,Female,0,1,0,1,124,139,235,Diabetes,Heart Disease
+P1460,51,Female,1,1,1,0,179,86,196,Diabetes,Flu
+P1461,67,Male,1,1,1,1,135,184,225,Hypertension,Flu
+P1462,48,Male,1,1,1,0,163,117,187,None,Flu
+P1463,23,Female,0,0,1,1,161,177,290,Diabetes,Heart Disease
+P1464,14,Male,1,1,1,1,136,121,236,None,Flu
+P1465,44,Female,1,0,0,1,100,165,207,Diabetes,Heart Disease
+P1466,27,Female,0,1,1,1,147,139,199,None,Heart Disease
+P1467,18,Female,1,1,1,0,129,171,179,Hypertension,Flu
+P1468,67,Female,1,0,0,1,112,144,250,None,Heart Disease
+P1469,26,Male,0,1,0,0,170,151,174,None,Diabetes
+P1470,16,Female,0,1,0,0,86,161,261,None,Diabetes
+P1471,55,Male,0,0,1,0,149,73,275,None,Healthy
+P1472,22,Female,1,1,0,1,94,178,272,None,Flu
+P1473,49,Male,1,1,1,0,161,117,196,Hypertension,Flu
+P1474,51,Female,1,1,1,0,111,142,267,Diabetes,Flu
+P1475,18,Male,0,0,0,0,154,141,188,None,Healthy
+P1476,59,Male,0,1,0,1,99,185,165,Hypertension,Heart Disease
+P1477,36,Female,1,1,1,1,167,150,171,None,Flu
+P1478,75,Female,1,1,0,0,94,150,203,None,Flu
+P1479,14,Female,0,1,1,1,127,182,298,Diabetes,Heart Disease
+P1480,38,Female,0,0,0,1,150,165,165,None,Heart Disease
+P1481,46,Male,0,0,0,0,100,141,208,Hypertension,Healthy
+P1482,47,Female,0,1,0,0,121,132,180,Hypertension,Healthy
+P1483,17,Male,1,1,1,1,105,107,181,Diabetes,Flu
+P1484,74,Male,0,0,0,0,93,136,158,None,Healthy
+P1485,26,Female,1,0,1,1,136,138,288,Hypertension,Heart Disease
+P1486,54,Male,1,1,1,1,116,82,159,None,Flu
+P1487,13,Male,1,0,1,1,137,100,166,None,Heart Disease
+P1488,45,Male,0,1,1,1,100,183,217,None,Heart Disease
+P1489,79,Male,0,0,0,1,161,91,197,Diabetes,Heart Disease
+P1490,40,Female,0,0,1,1,148,162,260,None,Heart Disease
+P1491,28,Female,0,0,1,0,82,136,272,Hypertension,Healthy
+P1492,70,Female,1,0,0,0,166,123,298,None,Healthy
+P1493,63,Female,0,1,1,1,169,111,250,Hypertension,Heart Disease
+P1494,48,Male,0,0,0,1,116,133,251,None,Heart Disease
+P1495,28,Male,1,0,1,1,167,195,214,Hypertension,Heart Disease
+P1496,48,Female,0,1,0,0,128,90,200,Hypertension,Healthy
+P1497,76,Female,1,0,1,1,98,104,185,None,Heart Disease
+P1498,54,Female,1,0,0,0,168,99,230,None,Healthy
+P1499,22,Male,1,1,1,1,164,126,276,Hypertension,Flu
